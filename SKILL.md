@@ -1,82 +1,9 @@
 ---
 name: excel-worksheet
 description: Orchestrate Excel/spreadsheet operations — create workbooks, read/write cells, formulas, charts (12 types), pivot tables, conditional formatting, data validation, tables, images, shapes, comments, protection, page setup, and advanced features (slicers, timelines, form controls). Use when creating spreadsheets, reading Excel data, writing formulas, building charts, creating pivot tables, formatting cells, or generating reports.
-version: "1.0.0"
 license: Apache-2.0
 compatibility: Requires worksheet-mcp server connected. Native xlsx read/write via zavora-xlsx (Rust). No Excel installation needed.
-allowed-tools:
-  - create_workbook
-  - open_workbook
-  - save_workbook
-  - close_workbook
-  - configure_workbook
-  - list_sheets
-  - get_sheet_dimensions
-  - describe_workbook
-  - add_sheet
-  - rename_sheet
-  - delete_sheet
-  - read_sheet
-  - read_cell
-  - search_cells
-  - sheet_to_csv
-  - write_cells
-  - write_row
-  - write_column
-  - write_rich_text
-  - write_json_rows
-  - write_formula
-  - manage_cell
-  - set_cell_format
-  - merge_cells
-  - set_row_column_format
-  - set_dimensions
-  - freeze_panes
-  - autofit_columns
-  - add_chart
-  - add_waterfall_chart
-  - add_funnel_chart
-  - add_treemap_chart
-  - add_sunburst_chart
-  - add_histogram_chart
-  - add_box_whisker_chart
-  - add_map_chart
-  - add_slicer
-  - add_timeline
-  - add_form_control
-  - add_table
-  - add_conditional_format
-  - add_data_validation
-  - add_sparkline
-  - add_image
-  - add_shape
-  - add_pivot_table
-  - set_page_setup
-  - manage_comments
-  - add_threaded_comment
-  - add_link
-  - manage_defined_names
-  - modify_rows
-  - modify_columns
-  - group
-  - protect
-  - protect_sheet_advanced
-  - manage_autofilter
-  - set_doc_properties
-  - save_workbook_advanced
-  - open_workbook_encrypted
-tags:
-  - business
-  - excel
-  - spreadsheet
-  - charts
-  - pivot-tables
-  - reporting
-  - formulas
-references:
-  - references/tool-sequences.md
-  - references/cross-mcp-workflows.md
-  - references/examples.md
+allowed-tools: [create_workbook, open_workbook, save_workbook, close_workbook, configure_workbook, list_sheets, get_sheet_dimensions, describe_workbook, add_sheet, rename_sheet, delete_sheet, read_sheet, read_cell, search_cells, sheet_to_csv, write_cells, write_row, write_column, write_rich_text, write_json_rows, write_formula, manage_cell, set_cell_format, merge_cells, set_row_column_format, set_dimensions, freeze_panes, autofit_columns, add_chart, add_waterfall_chart, add_funnel_chart, add_treemap_chart, add_sunburst_chart, add_histogram_chart, add_box_whisker_chart, add_map_chart, add_slicer, add_timeline, add_form_control, add_table, add_conditional_format, add_data_validation, add_sparkline, add_image, add_shape, add_pivot_table, set_page_setup, manage_comments, add_threaded_comment, add_link, manage_defined_names, modify_rows, modify_columns, group, protect, protect_sheet_advanced, manage_autofilter, set_doc_properties, save_workbook_advanced, open_workbook_encrypted]
 metadata:
   author: Zavora AI
   mcp-server: worksheet-mcp
